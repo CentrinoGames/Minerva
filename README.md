@@ -1,4 +1,4 @@
-# Minerva Emulator Episode 18 #
+# Minerva Emulator Episode 20 #
 
 This is Minerva - CABAL Online Server Emulator, written in C# language. Initially started by The Divinity Project, now being managed CentrinoGames.
 
@@ -10,32 +10,26 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 * It's not a beta. It's pre-alpha, buggy, small functionality.
 * Currently Login, Channel(World) and Master(Database/Sync) servers are working.
 * For storing game data, using MariaDB and XML.
-* Support for Episode 18.
+* Support for Episode 20.
 * Client is official [CABAL PT-BR] http://cabal.br.playthisgame.com/pt/
-* Client is official [CABAL ENG-US] http://cabal.playthisgame.com/en/
+* Client is official [CABAL EN-US] http://cabal.playthisgame.com/en/
 
 
 ### Client Download Links ###
 
 **Cabal Brazil Client Portuguese:**
-* [Download CABAL BR EP18 Primary]http://cabal.br.playthisgame.com/pt/FullClient/BRASIL
-* [Download CABAL BR EP18 Secondary]http://cabal.br.playthisgame.com/pt/FullClient/GLOBAL
+* [Download CABAL BR EP20 Primary]http://cabal.br.playthisgame.com/pt/FullClient/BRASIL
+* [Download CABAL BR EP20 Secondary]http://cabal.br.playthisgame.com/pt/FullClient/GLOBAL
 
 **Cabal Global Client English:**
-* [Download CABAL ENG EP18 Primary]http://cabal.playthisgame.com/en/FullClient/WEST
-* [Download CABAL ENG EP18 Secondary]http://cabal.playthisgame.com/en/FullClient/GLOBAL
+* [Download CABAL ENG EP20 Primary]http://cabal.playthisgame.com/en/FullClient/WEST
+* [Download CABAL ENG EP20 Secondary]http://cabal.playthisgame.com/en/FullClient/GLOBAL
 
-### Compiled Release Files ###
-
-* Compiled x64 bits
-[Minerva.x64.zip](https://github.com/centrinogames/minerva/files/1729011/Minerva.x64.zip)
-
-* Compiled x86 bits
-[Minerva.x86.zip](https://github.com/centrinogames/minerva/files/1729028/Minerva.x86.zip)
 
 ### MariaDB + HeidiSQL ###
 
 * [Download](https://mariadb.com/kb/en/library/heidisql/)
+
 
 ### Compatible with ###
 
@@ -43,6 +37,7 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 * .NET Framework 4.5 / Mono 4.x.x(latest);
 * MariaDB (you can grab xammp with all required tools [here](https://www.apachefriends.org/download.html));
 * MySQL 5.6 or newer (partially, there might be a plugin for this, later).
+
 
 ### ###
 

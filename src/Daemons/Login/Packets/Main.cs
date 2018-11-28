@@ -42,6 +42,7 @@ namespace Minerva
             methods[0x7D1] = new PacketInfo("PublicKey", PublicKey);
             methods[0x7D2] = new PacketInfo("PreServerEnvRequest", PreServerEnvRequest);
             methods[0x7D6] = new PacketInfo("Unknown_7D6", Unknown_7D6);
+            methods[0xD37] = new PacketInfo("Unknown_D37", Unknown_D37);
         }
     }
 }

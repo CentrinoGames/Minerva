@@ -33,7 +33,7 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 
 ### Compatible with ###
 
-* CABAL BR EP18 client;
+* CABAL BR EP20 client;
 * .NET Framework 4.5 / Mono 4.x.x(latest);
 * MariaDB (you can grab xammp with all required tools [here](https://www.apachefriends.org/download.html));
 * MySQL 5.6 or newer (partially, there might be a plugin for this, later).

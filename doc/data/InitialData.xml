@@ -1,14 +1,16 @@
 <InitialData>
 	<char_init>
-		<init	style="1"	name="class1"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="90"	lhand_5=""	icon="J_icn_battle001_1"	delta_hp="30"	delta_mp="10"	hp="50"	mp="20"	/>
+		<init	style="0"	name="class0"	world_id="3"	x="160"	y="61"	suit_1="120"	glove_2="165"	boot_3="210"	rhand_4="15"	lhand_5="30"	icon="J_icn_battle008_1"	delta_hp="20"	delta_mp="20"	hp="40"	mp="30"	/>
+		<init	style="1"	name="class1"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="90"	lhand_5=""	icon="J_icn_battle001_1"	delta_hp="50"	delta_mp="20"	hp="50"	mp="20"	/>
 		<init	style="2"	name="class2"	world_id="2"	x="75"	y="205"	suit_1="135"	glove_2="180"	boot_3="225"	rhand_4="45"	lhand_5="60"	icon="J_icn_battle002_1"	delta_hp="30"	delta_mp="10"	hp="50"	mp="20"	/>
 		<init	style="3"	name="class3"	world_id="2"	x="75"	y="205"	suit_1="135"	glove_2="180"	boot_3="225"	rhand_4="15"	lhand_5="15"	icon="J_icn_battle003_1"	delta_hp="20"	delta_mp="20"	hp="40"	mp="30"	/>
 		<init	style="4"	name="class4"	world_id="3"	x="160"	y="61"	suit_1="120"	glove_2="165"	boot_3="210"	rhand_4="30"	lhand_5="30"	icon="J_icn_battle004_1"	delta_hp="20"	delta_mp="20"	hp="40"	mp="30"	/>
 		<init	style="5"	name="class5"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="60"	lhand_5="30"	icon="J_icn_battle005_1"	delta_hp="25"	delta_mp="15"	hp="45"	mp="25"	/>
 		<init	style="6"	name="class6"	world_id="3"	x="160"	y="61"	suit_1="120"	glove_2="165"	boot_3="210"	rhand_4="45"	lhand_5="15"	icon="J_icn_battle006_1"	delta_hp="25"	delta_mp="15"	hp="45"	mp="25"	/>
 		<init	style="7"	name="class7"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="33554774"	lhand_5="33554774"	icon="J_icn_battle007_1"	delta_hp="25"	delta_mp="9"	hp="50"	mp="20"	/>
-	</char_init>
+			</char_init>
 	<char_newhp>
+		<newhp	bs="0"	bdelta="79"	/>
 		<newhp	bs="1"	bdelta="500"	/>
 		<newhp	bs="2"	bdelta="389"	/>
 		<newhp	bs="3"	bdelta="79"	/>
@@ -18,6 +20,7 @@
 		<newhp	bs="7"	bdelta="350"	/>
 	</char_newhp>
 	<initstat>
+		<initstat	id="0"	str="8"	dex="11"	int="16"	/>
 		<initstat	id="1"	str="24"	dex="8"	int="3"	/>
 		<initstat	id="2"	str="16"	dex="16"	int="3"	/>
 		<initstat	id="3"	str="3"	dex="6"	int="26"	/>
@@ -34,6 +37,7 @@
 		<make	suit_1="2763"	glove_2="2769"	boot_3="2775"	rhand_4="66"	lhand_5="36"	/>
 		<make	suit_1="2764"	glove_2="2770"	boot_3="2776"	rhand_4="51"	lhand_5="21"	/>
 		<make	suit_1="33554793"	glove_2="33554794"	boot_3="33554795"	rhand_4="33554780"	lhand_5="33554780"	/>
+		<make	suit_1="33555783"	glove_2="33555784"	boot_3="33555785"	rhand_4="2230"	lhand_5="2231"	/>
 	</char_make>
 	<rankup>
 		<rankup_condition	rank="1"	>

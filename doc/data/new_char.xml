@@ -22,6 +22,7 @@
 		<item class="-1" id="6" amount="20" slot="1" />
 		<item class="-1" id="12" amount="5" slot="9" />	
 		
+		<item class="0" id="270" slot="2" />
 		<item class="1" id="240" slot="2" />	
 		<item class="2" id="270" slot="2" />		
 		<item class="3" id="270" slot="2" />	
@@ -30,8 +31,9 @@
 		<item class="6" id="255" slot="2" />	
 		<item class="7" id="240" slot="2" />
 		
+		
 		<!--
-			class: The character class this skill should be given to.
+			class: The character class this skill should be given to. (-1 = for all class)
 			id: The skill ID.
 			level: The level of the skill.
 			slot: The skill slot to put this skill in (sword skills start at 0, magic at 32).
@@ -39,18 +41,35 @@
 			slot 104:  saint's force
 		-->
 		
-		<skill class="-1" id="340" level="1" slot="72" />
-		<skill class="-1" id="341" level="1" slot="73" />
-		<skill class="-1" id="400" level="1" slot="75" />
-		<skill class="-1" id="380" level="1" slot="78" />
-		<skill class="-1" id="381" level="1" slot="79" />
-		<skill class="-1" id="382" level="1" slot="80" />
 		<skill class="-1" id="421" level="1" slot="102" />
 		<skill class="-1" id="422" level="1" slot="103" />
 		<skill class="-1" id="474" level="1" slot="104" />
-		<skill class="-1" id="481" level="1" slot="105" />
-		<skill class="-1" id="482" level="1" slot="106" />
-		<skill class="-1" id="483" level="1" slot="107" />
+		
+		<skill class="1" id="340" level="1" slot="72" />
+		<skill class="1" id="341" level="1" slot="73" />
+		<skill class="1" id="400" level="1" slot="75" />
+		<skill class="1" id="380" level="1" slot="78" />
+		<skill class="1" id="381" level="1" slot="79" />
+		<skill class="1" id="382" level="1" slot="80" />
+		<skill class="1" id="481" level="1" slot="105" />
+		<skill class="1" id="482" level="1" slot="106" />
+		<skill class="1" id="483" level="1" slot="107" />
+
+		<skill class="0" id="512" level="1" slot="72" />
+		<skill class="0" id="513" level="1" slot="73" />
+		<skill class="0" id="518" level="1" slot="75" />
+		<skill class="0" id="514" level="1" slot="78" />
+		<skill class="0" id="515" level="1" slot="79" />
+		<skill class="0" id="516" level="1" slot="80" />
+		<skill class="0" id="517" level="1" slot="81" />
+		<skill class="0" id="519" level="1" slot="74" />
+		<skill class="0" id="520" level="1" slot="105" />
+		<skill class="0" id="521" level="1" slot="106" />
+		<skill class="0" id="522" level="1" slot="107" />
+		<skill class="0" id="525" level="1" slot="32" />
+		<skill class="0" id="553" level="1" slot="33" />
+		<skill class="0" id="330" level="1" slot="67" />
+		
 		
 		<skill class="1" id="2" level="1" slot="0" />
 		<skill class="1" id="1" level="1" slot="1" />
@@ -75,6 +94,8 @@
 		
 		<skill class="7" id="76" level="1" slot="0" />
 		<skill class="7" id="77" level="1" slot="1" />
+		
+
 		
 		<!--
 			class: The character class this quickslot should be given to.
@@ -111,5 +132,8 @@
 		
 		<quickslot class="7" id="0" slot="1" />
 		<quickslot class="7" id="1" slot="2" />
+		
+		<quickslot class="0" id="32" slot="1" />
+		<quickslot class="0" id="33" slot="2" />
 	</init>
 </cabal>

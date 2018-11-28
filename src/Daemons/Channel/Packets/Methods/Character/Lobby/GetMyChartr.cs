@@ -1,7 +1,7 @@
 ﻿/*
-    Copyright © 2010 The Divinity Project; 2013-2016 Dignity Team.
+    Copyright © 2010 The Divinity Project; 2013-2016 Dignity Team; 2016-2018 CentrinoGames.
     All rights reserved.
-    https://github.com/dignityteam/minerva
+    https://github.com/CentrinoGames/Minerva
     http://www.ragezone.com
 
 
@@ -60,15 +60,18 @@ namespace Minerva
             builder.New(0x85);
             {
                 if (!subpass)
-                    builder += 0;   // not exist
+                    builder += 0;
                 else
-                    builder += 1;   // exists
+                    builder += 1;
 
-                builder += new byte[9];
+                builder += 0;
+                builder += 0;
+                builder += (byte)0;
+
                 builder += (byte)1;
-                builder += 0;       // selected char id
+                builder += 0;
                 builder += slotorder;
-                builder += 8;       //open 7th and 8th slot
+                builder += 0;
 
                 for (int i = 0; i < characters.Length; i++)
                 {
@@ -91,7 +94,7 @@ namespace Minerva
                     int back = (eq.back != null) ? (int)(BitConverter.ToUInt32(eq.back, 0) + (eq.back[0x02] * 0x2000)) : (ushort)0;
 
                     builder += charId;
-                    builder += (long)date.TotalSeconds;     // created
+                    builder += (long)date.TotalSeconds;
                     builder += style;
                     builder += characters[i].level;
                     builder += 1;
@@ -117,7 +120,7 @@ namespace Minerva
                     builder += (long)back;
                     builder += (long)0;
 
-                    builder += new byte[588];
+                    builder += new byte[608];
 
                     builder += (byte)(characters[i].name.Length + 1);
                     builder += characters[i].name;

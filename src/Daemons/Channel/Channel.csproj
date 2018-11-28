@@ -135,7 +135,6 @@
     <Compile Include="Packets\Methods\World\ChangeChannel.cs" />
     <Compile Include="Packets\Methods\World\CharacterSelect.cs" />
     <Compile Include="Packets\Methods\World\Initialized.cs" />
-    <Compile Include="Packets\Methods\World\Initialized_bkup.cs" />
     <Compile Include="Packets\Methods\World\UpdateHelpInfo.cs" />
     <Compile Include="Packets\Methods\Movement\ChangeDirection.cs" />
     <Compile Include="Packets\Methods\Character\ChangeStyle.cs" />

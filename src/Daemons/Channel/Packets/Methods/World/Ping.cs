@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright © 2010 The Divinity Project; 2013-2016 Dignity Team.
+    Copyright © 2010 The Divinity Project; 2013-2016 Dignity Team; 2016-2018 CentrinoGames.
     All rights reserved.
     http://board.thedivinityproject.com
     http://www.ragezone.com

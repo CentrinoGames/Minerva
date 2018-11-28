@@ -93,6 +93,7 @@
     <Compile Include="Packets\Methods\SystemMessg.cs" />
     <Compile Include="Packets\Methods\Unknown_7D5.cs" />
     <Compile Include="Packets\Methods\Unknown_7D6.cs" />
+    <Compile Include="Packets\Methods\Unknown_D37.cs" />
     <Compile Include="Packets\Methods\URLToClient.cs" />
     <Compile Include="Packets\Methods\VerifyLinks.cs" />
     <Compile Include="Packets\SendChannels.cs" />

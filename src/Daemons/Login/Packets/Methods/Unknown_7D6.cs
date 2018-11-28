@@ -194,15 +194,16 @@ namespace Minerva
             {
                 builder.New(0x7D6);
                 {
-                    builder += (byte)1;
-                    builder += 0;
-                    builder += 0x0B;
+                    builder += 1;
+                    builder += 0x0900;
+                    builder += (byte)0;
+
                     builder += (int)AccountStatus.Normal;
                     builder += 0x4B6359;
                     builder += (byte)1;
-                    builder += (byte)0x67;
+                    builder += 0x67;
                     builder += (long)0;
-                    builder += 1;
+                    builder += (byte)0;
                     builder += 0x43A56B60;
                     builder += (byte)0;
                     builder += 1;
@@ -213,7 +214,6 @@ namespace Minerva
                     builder += (byte)1;                                      // Char Num of all servers
                     builder += (byte)1;                                      // Server ID
                     builder += (byte)1;                                      // CharNum
-                    builder += new byte[254];
                 }
 
                 client.Send(builder, "Unknown_7D6");

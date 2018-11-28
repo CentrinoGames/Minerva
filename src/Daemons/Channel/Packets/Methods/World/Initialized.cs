@@ -207,9 +207,8 @@ namespace Minerva
                 builder += new byte[79];
                 builder += 1;
                 builder += new byte[131];
-                builder += 0;
                 builder += 0x03E8;                                      // help window..?
-                builder += 59;
+                builder += 0;
                 builder += new byte[2065];
 
 
